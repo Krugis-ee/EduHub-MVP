@@ -8,23 +8,23 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/organization-page.css">
+    <!-- <link rel="stylesheet" href="css/organization-page.css"> -->
     <title>Organization Register</title>
 </head>
 
 <body>
+    <header>
+        <div class="container-fluid">
+            <img src="assets/Eduhub_logo.png" alt="Logo" class="">
+        </div>
+    </header>
     <div class="reg_left">
         <img src="assets/reg1.png" alt="Company Logo">
     </div>
+    <main class="main-content">
+        <div class="org-wrapper">
 
-
-    <header>
-        <img src="assets/Eduhub_logo.png" alt="Logo" class="header-logo">
-
-    </header>
-    <div class="wrapper">
-
-        <form action="edu-hub-reg1.html" method="get">
+            <form action="verify-page.html" method="get" class="login-pages-form">
 
             <h1>Introduce Your Organization!</h1>
 
@@ -32,33 +32,37 @@
             <div class="input-box">
                 <input type="email" placeholder="Enter Organization" required>
             </div>
+
             <p>Organization address*</p>
             <div class="input-address">
                 <input type="text" placeholder="Enter address" required>
             </div>
+
             <p>Email ID*</p>
             <div class="input-box">
                 <input type="text" placeholder="Enter email id" required>
             </div>
+
             <p>Contact person name*</p>
             <div class="input-box">
                 <input type="text" placeholder="Enter name" required>
             </div>
+
             <p>Contact person mobile no*</p>
             <div class="input-box">
                 <input type="text" placeholder="Enter mobile number" required>
             </div>
+
             <p>Country</p>
             <div class="input-box">
                 <input type="text" placeholder="Enter country name" required>
             </div>
+
             <p>Do you have branches for your organization?</p>
             <div class="choosing">
-                <input type="radio" id="yes" value="yes">
+                <input type="radio" id="yes" name="branch-organization" value="yes">
                 <label for="yes">Yes</label>
-                <!-- </div>
-                <div class="choosing"> -->
-                <input type="radio" id="no" value="no">
+                <input type="radio" id="no" name="branch-organization" value="no">
                 <label for="no">No</label>
             </div>
             <div class="count-wrap">
@@ -69,13 +73,15 @@
             </div>
 
             <div class="btn-flow">
-                <button type="submit" class="btn1" onclick="window.location.href='login-page.html'">Back</button>
-                <button type="submit" class="btn2" onclick="window.location.href='organization-page.html'">Next</button>
-            </div>
+                    <button type="submit" class="btn1" onclick="window.location.href='register-page.html'">Back</button>
+                    <button type="submit" class="btn2"
+                        onclick="window.location.href='verify-page.html'">Next</button>
+                </div>
 
         </form>
 
-    </div>
+        </div>
+    </main>
     <div class="reg_right">
         <img src="assets/reg2.png" alt="Company Logo">
     </div>
