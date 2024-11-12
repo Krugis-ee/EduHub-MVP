@@ -1,0 +1,102 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ffffff;
+}
+header img{
+    position: absolute;
+    left: 1%;
+    top: 1%;
+}
+.header-logo{
+        height: auto;
+        /* display: block;
+        margin: 0 auto; */
+}
+.reg_left{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+}
+.reg_right{
+    position: absolute;
+    right: 1%;
+    bottom: 0%;
+}
+.wrapper{
+    width: 421px;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 20px 14px #C9C9C940;
+    border-radius: 13.16px;
+}
+
+.wrapper img {
+    display: block;
+    margin: 0 auto;
+    padding: 26px 0;
+}
+.wrapper h1{
+    padding: 26px 0 26px 28px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27.24px;
+    color: #343C40;
+}
+.wrapper .forgot{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding-left: 28px;
+}
+.forgot p{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16.34px;
+    color: #343C40;
+}
+.choosing{
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    gap: 10px;
+}
+.choosing input{
+    width: 16px;
+    height: 16px;
+}
+
+.choosing label{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.34px;
+    color: #343C40;
+}
+.btn-flow{
+    margin: 90px 28px 26px 28px;
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper .btn1 {
+    background: none;
+    height: 43px;
+    width: 80px;
+    border: 1px solid #3566FA;
+    border-radius: 6.58px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19.07px;
+    color: #3566FA;
+}
+.wrapper .btn2 {
+    background: #3566FA;
+    height: 43px;
+    width: 80px;
+    border: none;
+    border-radius: 6.58px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19.07px;
+    color: #ffffff;
+}
